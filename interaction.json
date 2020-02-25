@@ -1,0 +1,291 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "girlscouts",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "Cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "What does this skill do",
+                        "What can you do",
+                        "Help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CookieIntent",
+                    "slots": [
+                        {
+                            "name": "cookie",
+                            "type": "Cookies"
+                        }
+                    ],
+                    "samples": [
+                        "Tell me about the cookies",
+                        "What are the cookies",
+                        "What are {cookie}",
+                        "What are some Girl Scout cookies",
+                        "Tell me about Girl Scout cookies"
+                    ]
+                },
+                {
+                    "name": "CookieBeneGirlIntent",
+                    "slots": [],
+                    "samples": [
+                        "How does selling cookies help girls",
+                        "Why should I buy Girl Scout cookies",
+                        "How is the Girl Scout Cookie Program valuable to girls",
+                        "Why do Girl Scouts sell cookies",
+                        "How do cookies help Girl Scouts"
+                    ]
+                },
+                {
+                    "name": "GSBeneGirlIntent",
+                    "slots": [],
+                    "samples": [
+                        "Why should I sign my daughter up for Girl Scouts",
+                        "How is Girl Scouts good for girls",
+                        "Why should my daughter join",
+                        "Why should I join Girl Scouts",
+                        "Why should I do Girl Scouts",
+                        "Why should my daughter do Girl Scouts",
+                        "How does Girl Scouts help girls",
+                        "Does Girl Scouts help girls",
+                        "What does Girl Scouts do for girls",
+                        "Why should my daughter join Girl Scouts",
+                        "What do girls learn from Girl Scouts",
+                        "How does Girl Scouts help"
+                    ]
+                },
+                {
+                    "name": "GSAwardsIntent",
+                    "slots": [],
+                    "samples": [
+                        "What are Girl Scouts trying to achieve",
+                        "What do Girl Scouts work towards",
+                        "what can my daughter put on her college application",
+                        "What can a girl do to get recongization for her hard work",
+                        "What awards can my daughter earn",
+                        "What are some awards Girl Scouts can earn"
+                    ]
+                },
+                {
+                    "name": "WhoBakesCookiesIntent",
+                    "slots": [],
+                    "samples": [
+                        "Where can I find a reciepe for Girl Scout Cookies",
+                        "Do Girl Scouts bake the Girl Scout Cookies",
+                        "Who bakes the cookies",
+                        "Who bakes Girl Scout Cookies"
+                    ]
+                },
+                {
+                    "name": "KosherCookiesIntent",
+                    "slots": [],
+                    "samples": [
+                        "Are all Girl Scout Cookies kosher",
+                        "Are there any kosher Girl Scout Cookies",
+                        "Which Girl Scout Cookies are kosher",
+                        "Are Girl Scout Cookies kosher"
+                    ]
+                },
+                {
+                    "name": "CharitableCookiesIntent",
+                    "slots": [],
+                    "samples": [
+                        "How do I donate cookies",
+                        "Can I donate cookies",
+                        "Can I donate Girl Scout cookies",
+                        "Are Girl Scout cookies good",
+                        "How does selling Girl Scout Cookies help the community",
+                        "Are cookie sales good for the community",
+                        "Can Girl Scouts donate cookies to local charities",
+                        "Can Girl Scouts donate cookies to charities",
+                        "Can Girl Scouts donate cookies",
+                        "Can Girl Scouts donate cookies to military personnel or local charities"
+                    ]
+                },
+                {
+                    "name": "GirlSafeCookiesIntent",
+                    "slots": [],
+                    "samples": [
+                        "Is selling cookies safe for girls",
+                        "How are girls safe when selling cookies",
+                        "Is selling cookies dangerous to girl's safety",
+                        "Are girls safe when selling cookies",
+                        "How does Girl Scouts keep girls safe as they sell cookies"
+                    ]
+                },
+                {
+                    "name": "GSStartCampingIntent",
+                    "slots": [],
+                    "samples": [
+                        "At what age can girls start camping",
+                        "When can my daughter start camping",
+                        "In what grade does a girl have to be to start camping",
+                        "when can I take my girls camping",
+                        "How old do girls have to be to start camping",
+                        "When can girls start camping"
+                    ]
+                },
+                {
+                    "name": "GSIntent",
+                    "slots": [],
+                    "samples": [
+                        "How can my daughter join Girl Scouts",
+                        "How do I sign her up",
+                        "Where can I sign my daughter up for Girl Scouts",
+                        "How do I sign my daughter up for Girl Scouts",
+                        "Where can I sign up for Girl Scouts",
+                        "How do I join Girl Scouts"
+                    ]
+                },
+                {
+                    "name": "WhenBuyCookiesIntent",
+                    "slots": [],
+                    "samples": [
+                        "Where can I buy cookies",
+                        "Where can I buy Girl Scout Cookies",
+                        "When are cookies available",
+                        "When are cookies on sale",
+                        "When can I buy cookies",
+                        "When are Girl Scout Cookies available",
+                        "When are Girl Scout Cookies on sale",
+                        "When can I buy Girl Scout Cookies"
+                    ]
+                },
+                {
+                    "name": "GSTransgenderIntent",
+                    "slots": [],
+                    "samples": [
+                        "Can a transgender boy join Girl Scouts",
+                        "Can a transgender boy join my troop",
+                        "Can a transgender girl join my troop",
+                        "Can a transgender girl join Girl Scouts",
+                        "Can a transgender person join my troop",
+                        "Can a transgender person join Girl Scouts",
+                        "Can my transgender son join Girl Scouts",
+                        "Can my transgender daughter join Girl Scouts",
+                        "What is Girl Scouts' position on serving transgender youth"
+                    ]
+                },
+                {
+                    "name": "GSLevelsIntent",
+                    "slots": [],
+                    "samples": [
+                        "What is the highest level of Girl Scouts",
+                        "How many Girl Scout levels are there",
+                        "What are the levels of Girl Scouts",
+                        "What are the different levels of Girl Scouts"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Cookies",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Caramel Chocolate Chip"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Toffee-Tastic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Thanks-A-Lot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lemonades"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Peanut Butter Sandwich"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Trefoils"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shortbread"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Peanut Butter Patties"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Caramel deLites"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Girl Scout S'mores"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Do-si-dos"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Savannah Smiles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tagalongs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Thank You Berry Munch"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Samoas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Thin Mints"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
